@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="snapshot">
+<head>
+    <base href="/ConditionsDB/snapshot/"/>
+    <meta charset="utf8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>SCT Conditions Snapshot</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/local.css"/>
+</head>
+<body>
+    <div class="navbar navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">SCT Conditions DB Snapshot</a>
+            </div>
+        </div>
+    </div>
+
+    <div ng-view>
+
+    </div>
+
+    <div> SCT Conditions App</div>
+
+    <script src="js/lib/angular/angular.js"></script>
+    <script src="js/lib/angular-bootstrap/ui-bootstrap-tpls-0.10.0.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/snapshot/crates.js"></script>
+
+</body>
+</html>
